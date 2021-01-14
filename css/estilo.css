@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Netflix Sans";
+    src: url(../fontes/Netflix\ Sans\ Light.otf);
+}
+
+/* HEADER */
+header {
+    background-image: linear-gradient(to bottom, #060606,#0a0a0a,#141414);
+    height: 65px;
+}
+.logo-principal {
+    height: 60px;
+    padding-left: 55px;
+    padding-top: 8px;
+}
+
+body, html {
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+    line-height: 1.2;
+
+}
+.container {
+    margin: 0;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sec-principal {
+    height: auto;
+    width: 60%;
+    display: flex;
+    margin-top: 17px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.titulo {
+    display: flex;
+    font-family: "Netflix Sans";
+    color: #fff;
+    font-size: 3.6vw;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.img-usuario {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 4px;  
+}
+.img-usuario:hover {
+    border: 3px solid #fff;
+}
+.usuarios {
+    text-decoration: none;
+}
+.paragrafo {
+    font-family: "Netflix Sans";
+    color: grey;
+    line-height: 1.2em;
+    min-height: 1.8em;
+    text-align: center;
+    font-size: 1.3vw;
+    text-decoration: none;
+   padding: 7px 0;
+}
+.btn {
+    font-family: "Netflix Sans" ;
+    border: 1px solid grey;
+    color: grey;
+    text-transform: uppercase;
+    padding: .5em 1.5em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+}
+.btn:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

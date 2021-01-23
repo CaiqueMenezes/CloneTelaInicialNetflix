@@ -1,8 +1,8 @@
-# 💻 Tela De Login Responsiva
-![tela-de-login](https://github.com/CaiqueMenezes/TelaDeLogin/blob/main/tela-de-login.png)
+# 💻 Clone da Tela Inicial da Netflix
+![Netflix](https://github.com/CaiqueMenezes/CloneTelaInicialNetflix/blob/main/Clone-Netflix.png)
 
 # 🔖 Sobre
-Um projeto simples feito com HTML5 e CSS3 para a evolução.
+Um projeto simples feito com HTML5 e CSS3 para o treino do flexbox.
 
 # 🚀 Tecnologias
 

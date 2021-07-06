@@ -37,6 +37,16 @@ body, html {
     color: white;
     margin-bottom: 10px;
 }
+.aumentaCardMaior:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.aumentaCardMenor:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+    transition-delay: 0.3s;
+}
 
 /* HEADER */
 header {
@@ -70,6 +80,7 @@ header ul li {
     margin-left: 20px;
     padding: 26px 0;
     color: #ffffff;
+    cursor: pointer;
 }
 header ul li a {
     text-decoration: none;
@@ -151,6 +162,7 @@ header ul li a {
     font-size: 16px;
     font-weight: bolder;
 
+    cursor: pointer;
     margin-right: 10px;
     padding: 10px 20px;
     border-radius: 4px;
@@ -158,7 +170,7 @@ header ul li a {
     background-color: white;
     color: black;
 }
-.btn-informacoes {
+.btn-informacoes  {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -170,10 +182,18 @@ header ul li a {
     font-size: 16px;
     font-weight: bolder;
 
+    cursor: pointer;
     border-radius: 4px;
     border: none;
     background-color: rgba(109,109,110,0.7);
     color: white;
+}
+
+.btn-assistir:hover {
+    background-color: rgba(255,255,255,0.75);
+}
+.btn-informacoes:hover {
+    background-color: rgba(109,109,110,0.4);
 }
 
 /* DIV ASSISTIR NOVAMENTE */

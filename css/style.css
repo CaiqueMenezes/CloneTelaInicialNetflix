@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+
+#home {
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icones {
+    padding-top: 10px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.icones a {
+    text-decoration: none !important;
+}
+
+
+header {
+    padding: 0px 15%;
+    padding-top: 15px;
+}
+
+
+header ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar {
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 3px;
+}
+
+.navbar-collapse {
+    width: auto !important;
+}
+
+.nav-itens {
+    margin: 0 !important;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+/* Main */
+
+.main {
+    background-color: #e9e8e9;  
+    margin: 0 !important;
+}
+
+.main p {
+    padding: 30px;
+    margin: 0;
+}
+
+/* Listar */
+
+.botao {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid black;
+}
+.botao:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.fa-plus {
+    color: black;
+    margin-right: 8px;
+}
+.fa-plus:hover {
+    color: #fff !important;
+}

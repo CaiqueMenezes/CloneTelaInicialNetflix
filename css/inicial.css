@@ -86,6 +86,9 @@ header ul li a {
     text-decoration: none;
     color: #fff;
 }
+.ul-icons {
+    position: relative;
+}
 .ul-icons li {
     margin-left: 0 !important;
     margin-right: 20px;
@@ -100,6 +103,55 @@ header ul li a {
     font-weight: 900;
     cursor: default;
 }
+
+
+/* DROPDOWN DE USUARIO */
+.dropdown-usuario  {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.dropdown-usuario i {
+ margin-left: 10px;
+}
+.dropdown-submenu {
+    position: absolute;
+    display: none;
+    right: 20px;
+
+    border: 0.5px solid gray;
+    padding: 5px 0px 15px;
+    margin-top: 20px;
+    background-color: #141414;
+    opacity: 90%;
+}
+ul li:hover ul {
+    display: block ;
+}
+.dropdown-item {
+    display: block;
+    
+
+    margin: 0 !important;
+    padding: 10px 70px 0px 10px;
+    background-color: #141414;
+    opacity: 90%;
+}
+.dropdown-item img {
+    border-radius: 3px;
+    height: 32px;
+    width: 32px;
+}
+.dropdown-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dropdown-link p {
+    margin-left: 10px;
+}
+
+
 /* SECTION HOME */
 .home {
     background-image: url(../img/bgInicial.png) ;
@@ -235,3 +287,189 @@ header ul li a {
     position: relative;
     bottom: -30px;
 }
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+
+/* RESPONSIVIDADE DO HEADER */
+    header {
+        padding: 0 10px;
+    }
+    .infantil-text {
+        display: none;
+    }
+    .ul-icons li {
+        margin-right: 13px;
+    }
+    .dropdown-usuario i {
+        display: none;
+    }
+
+/* RESPONSIVIDADE DA TELA PRINCIPAL */
+    .home {
+        background-size: contain;
+        height: 75vh;
+    }
+    .content {
+        margin-top: 0;
+    }
+    .container {
+        padding: 0 25px;
+    }
+    .img-titulo-filme {
+        width: 276px;
+        height: 110px;
+    }
+    .toplist-text {
+        font-size: 15px;
+    }
+    .synopse {
+        font-size: 15px;
+    }
+    .btn-assistir {
+        width: 125px;
+        height: 37px;
+    }
+    .btn-informacoes {
+        width: 195px;
+        height: 37px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    /* RESPONSIVIDADE DO HEADER */
+        header {
+            padding: 0;
+        }
+        .logo-principal {
+            height: 40px;
+        }
+
+    /* RESPONSIVIDADE DA TELA PRINCIPAL */
+        .container {
+            padding: 0 15px;
+        }
+        .home {
+            height: 45vh;
+        }
+        .content {
+            margin-top: 0px;
+            position: relative;
+            bottom: 30px;
+        }
+        .img-titulo-filme {
+            width: 153px;
+            height: 61px;
+            margin-bottom: 5px;
+        }
+        .toplist-text {
+            font-size: 10px;
+            margin: 5px 0;
+        }
+        .img-top-10 {
+            height: 15px !important;
+        }
+        .synopse {
+            font-size: 8px;
+        }
+        .btn-assistir {
+            width: 85px;
+            height: 25px;
+            font-size: 10px;
+        }
+        .btn-informacoes {
+            width: 132px;
+            height: 25px;
+            font-size: 10px;
+        }
+
+    /* RESPONSIVIDADE DA LISTA DE FILMES */
+        .lista-title {
+            font-size: 12px;
+        }
+        .lista-filmes img {
+            height: 108px;
+            width: 193px;
+        }
+        .assistir-novamente {
+            top: -45px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        /* RESPONSIVIDADE DA TELA PRINCIPAL */
+            .home {
+                height: 38vh;
+            }
+            .img-titulo-filme {
+                width: 135px;
+                height: 54px;
+                margin-bottom: 5px;
+            }
+            .toplist-text {
+                font-size: 7px;
+                margin: 5px 0;
+            }
+            .img-top-10 {
+                height: 10px !important;
+                margin-right: 5px !important;
+            }
+            .synopse {
+                font-size: 7px;
+            }
+            .buttons {
+                margin-top: 8px;
+            }
+            .btn-assistir {
+                width: 75px;
+                height: 22px;
+                font-size: 9px;
+            }
+            .btn-informacoes {
+                width: 116px;
+                height: 22px;
+                font-size: 9px;
+            }
+    
+        }
+
+        @media screen and (max-width: 320px) {
+            /* RESPONSIVIDADE DA TELA PRINCIPAL */
+                .home {
+                    height: 33vh;
+                }
+                .img-titulo-filme {
+                    width: 115px;
+                    height: 46px;
+                    margin-bottom: 5px;
+                }
+                .toplist-text {
+                    font-size: 5px;
+                    margin: 5px 0;
+                }
+                .img-top-10 {
+                    height: 8px !important;
+                    margin-right: 5px !important;
+                }
+                .synopse {
+                    font-size: 5px;
+                }
+                .btn-assistir {
+                    width: 65px;
+                    height: 19px;
+                    font-size: 10px;
+                }
+                .btn-informacoes {
+                    width: 103px;
+                    height: 19px;
+                    font-size: 9px;
+                }
+        
+            /* RESPONSIVIDADE DA LISTA DE FILMES */
+                .lista-title {
+                    margin-top: 20px;
+                    margin-bottom: 3px;
+                }
+            }

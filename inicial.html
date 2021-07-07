@@ -13,9 +13,11 @@
 </head>
 
 <body>
-    <section class="home"> <!--SECTION PRINCIPAL--> 
+    <section class="home">
+        <!--SECTION PRINCIPAL-->
         <header>
-            <ul class="headerList"> <!--HEADER-->
+            <ul class="headerList">
+                <!--HEADER-->
                 <li><img class="logo-principal" src="img/logo-principal.png"></li>
                 <li>
                     <a href="#" class="active">Inicio</a>
@@ -35,20 +37,53 @@
             </ul>
             <ul class="ul-icons">
                 <li><i class="fas fa-search fa-lg"></i></li>
-                <li>
-                    <h4>INFANTIL</h4>
-                </li>
+                <li><h4 class="infantil-text">INFANTIL</h4></li>
                 <li><i class="fas fa-bell fa-lg"></i></li>
                 <li>
-                    <img class="img-header" src="img/img-usuario4.png" alt="imagem de usuario">
+                    <a class="dropdown-usuario" href="#">
+                        <img class="img-header" src="img/img-usuario4.png" alt="imagem de usuario">
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-submenu">
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="">
+                                <img src="img/img-usuario.png" alt="Imagem de usuario">
+                                <p class="paragrafo">User</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <img src="img/img-usuario2.png" alt="Imagem de usuario">
+                                <p class="paragrafo">User</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <img src="img/img-usuario3.png" alt="Imagem de usuario">
+                                <p class="paragrafo">User</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                <img src="img/img-usuario5.png" alt="Imagem de usuario">
+                                <p class="paragrafo">User</p>
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="dropdown-link" href="#">
+                                Gerenciar Perfils
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </header>
-        <div class="container"> <!--DIV CONTAINER-->
+        <div class="container">
+            <!--DIV CONTAINER-->
             <div class="content">
                 <img class="img-titulo-filme" src="img/titulo-filme.png" alt="titulo do filme">
                 <div class="toplist-text">
-                    <img src="img/img-top.png" style="margin-right: 10px;">Brasil : top 6 de hoje
+                    <img class="img-top-10" src="img/img-top.png" style="margin-right: 10px;">Brasil : top 6 de hoje
                 </div>
                 <div class="synopse">Ela tem sede de vingança. Ele so pensa em poder.<br>Juntos, eles precisam enfrentar
                     uma ameaça mortal.</div>
@@ -63,7 +98,8 @@
             </div>
         </div>
     </section>
-    <div class=" lista-filmes container assistir-novamente"> <!--DIV ASSISTIR NOVAMENTE-->
+    <div class=" lista-filmes container assistir-novamente">
+        <!--DIV ASSISTIR NOVAMENTE-->
         <h2 class="lista-title">Assistir Novamente</h2>
         <ul class="lista-filmes">
             <li class="aumentaCardMenor"><img src="img/an1.png"></li>
@@ -73,7 +109,8 @@
             <li class="aumentaCardMenor"><img src="img/an5.png"></li>
         </ul>
     </div>
-    <div class="lista-filmes container em-alta"> <!--DIV EM ALTA-->
+    <div class="lista-filmes container em-alta">
+        <!--DIV EM ALTA-->
         <h2 class="lista-title">Em Alta</h2>
         <ul class="lista-filmes">
             <li class="aumentaCardMenor"><img src="img/ea1.png"></li>
@@ -83,7 +120,8 @@
             <li class="aumentaCardMenor"><img src="img/ea5.png"></li>
         </ul>
     </div>
-    <div class="originais-filmes container originais"> <!--DIV ORIGINAIS -->
+    <div class="originais-filmes container originais">
+        <!--DIV ORIGINAIS -->
         <h2 class="originais-title">Originais Netflix</h2>
         <ul class="originais-filmes ">
             <li class="aumentaCardMaior"><img src="img/originais1.png"></li>
@@ -93,7 +131,8 @@
             <li class="aumentaCardMaior"><img src="img/originais5.png"></li>
         </ul>
     </div>
-    <div class="lista-filmes container populares"> <!--DIV POPULARES-->
+    <div class="lista-filmes container populares">
+        <!--DIV POPULARES-->
         <h2 class="lista-title">Populares na Netflix</h2>
         <ul class="lista-filmes">
             <li class="aumentaCardMenor"><img src="img/populares1.png"></li>

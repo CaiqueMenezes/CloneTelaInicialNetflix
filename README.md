@@ -1,5 +1,8 @@
-# 💻 Clone da Netflix
+# 👨‍💻 Clone da Netflix
 ![Netflix](https://github.com/CaiqueMenezes/CloneTelaInicialNetflix/blob/main/Clone-Netflix.png)
+
+# 💻  Visualização Desktop
+![2021-09-19 22-18-39.gif](https://github.com/CaiqueMenezes/CloneTelaInicialNetflix/blob/main/2021-09-19%2022-18-39.gif)
 
 
 # 🔖 Sobre
